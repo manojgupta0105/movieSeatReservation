@@ -1,0 +1,80 @@
+#app {
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.grid td {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d6d6d6;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  margin: 10px 15px;
+}
+
+.grid td:nth-child(7) {
+  margin-left: 35px;
+}
+
+.grid .noBorder {
+  border: none !important;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: green;
+  color: #fff;
+  display: inline-block;
+}
+
+.selected {
+  background: red;
+  color: #fff;
+  display: inline-block;
+}
+
+/* .reserved::after {
+  content: 'RESERVED'
+}
+
+.selected::after {
+  content: 'SELECTED'
+}
+
+.available::after {
+  content: 'AVAILABLE'
+} */
+
+.available {
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.btnmargin{
+  margin-top: 15px;
+}
+
+#screen {
+  color: white;
+    width: 85%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    background: #4894c2;
+    line-height: 30px;
+}
